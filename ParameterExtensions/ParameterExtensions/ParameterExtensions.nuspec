@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>ParameterExtensions</id>
-    <version>1.0.0</version>
+    <version>1.1.0</version>
     <title>Parameter extensions</title>
     <authors>Sydney du Plooy</authors>
     <owners>$author$</owners>
@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/sduplooy/ParameterExtensions</projectUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <description>A small collection of parameter extension methods that check whether a parameter is null. In the case of strings, it will check that the parameter is not null and not empty.</description>
-    <releaseNotes>Added ThrowIfNull and ThrowIfNullOrEmpty extension methods.</releaseNotes>
+    <releaseNotes>Target .NET Framework 4.5.</releaseNotes>
     <copyright>Copyright (c) 2016 Sydney du Plooy</copyright>
     <tags>ParameterExtensions Parameters Parameter Extensions</tags>
   </metadata>
