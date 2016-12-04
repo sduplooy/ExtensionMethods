@@ -1,2 +1,8 @@
 language: csharp
 solution: ./ParameterExtensions/ParameterExtensions.sln
+install:
+  - nuget restore ./ParameterExtensions/ParameterExtensions.sln
+  - nuget install NUnit.ConsoleRunner -Version 3.5.0 -OutputDirectory testrunner
+script:
+  - xbuild /p:Configuration=Release ./ParameterExtensions/ParameterExtensions.sln
+  - mono ./testrunnerNUnit.ConsoleRunner.3.5.0/tools/nunit-console.exe ././ParameterExtensions.Tests/bin/Release/ParameterExtensions.Tests.dll
