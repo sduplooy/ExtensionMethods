@@ -5,4 +5,4 @@ install:
   - nuget install NUnit.ConsoleRunner -Version 3.5.0 -OutputDirectory testrunner
 script:
   - xbuild /p:Configuration=Release ./ParameterExtensions/ParameterExtensions.sln
-  - mono ./testrunner/NUnit.ConsoleRunner.3.5.0/tools/nunit-console.exe ./ParameterExtensions/ParameterExtensions.Tests/bin/Release/ParameterExtensions.Tests.dll
+  - mono ./testrunner/NUnit.ConsoleRunner.3.5.0/tools/nunit3-console.exe ./ParameterExtensions/ParameterExtensions.Tests/bin/Release/ParameterExtensions.Tests.dll
