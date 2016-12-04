@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sduplooy/ParameterExtensions.svg?branch=master)](https://travis-ci.org/sduplooy/ParameterExtensions)
+
 # ParameterExtensions
 A small collection of parameter extension methods that check whether a parameter is null. In the case of strings, it will check that the parameter is not null and not empty.
 
