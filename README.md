@@ -3,6 +3,10 @@
 # ParameterExtensions
 A small collection of parameter extension methods that check whether a parameter is null. In the case of strings, it will check that the parameter is not null and not empty.
 
+# NuGet
+To install the package from NuGet, run the following command:
+`Install-Package ParameterExtensions`
+
 # Examples
     using ParameterExtensions;
     
